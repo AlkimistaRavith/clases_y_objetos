@@ -26,9 +26,9 @@ class Te():
         3: Corresponde a Agua de hierbas.
         """
 
-        pedido = Te.pedido[sabor]
+        pedido = Te.sabores[sabor] #llamar el objeto del diccionario sabores de la clase Te. en el numero sabor.
 
-        return pedido["Tiempo"], pedido["Recomendacion"]
+        return pedido["Nombre"], pedido["Tiempo"], pedido["Recomendacion"]
 
     #Obtener precio
     @staticmethod
