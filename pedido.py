@@ -15,10 +15,10 @@ precio = Te.obtener_precio(formato)
 duracion = Te.duracion
 
 print(f"""
-a. Sabor del tipo de té (como texto) {nombre}
-b. Formato (como número) {formato}
-c. Precio (como número) {precio}
-d. Tiempo (como número) {tiempo}
-e. Recomendación (como texto) {recomendacion}
+a. Sabor del tipo de té (como texto): {nombre}
+b. Formato (como número): {formato}
+c. Precio (como número): {precio}
+d. Tiempo (como número): {tiempo}
+e. Recomendación (como texto): {recomendacion}
 f. Duración (numero): {duracion}
 """)
